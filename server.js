@@ -14,7 +14,7 @@ const users = [
 
 // Rota para a página inicial
 app.get('/', (req, res) => {
-    res.send('Página inicial - <a href="/login">Login</a>'); // Mensagem simples para a página inicial
+    res.redirect('/login');
 });
 
 // Rota para a página de login
